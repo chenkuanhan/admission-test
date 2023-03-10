@@ -1,5 +1,4 @@
 def find_max(numbers):
-  result = 1
   mmax = numbers[0]
   for i in numbers:
     if mmax < i:
