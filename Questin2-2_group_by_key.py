@@ -5,7 +5,7 @@ def group_by_key(input2):
 	data = df.groupby(['key']).sum()
 
 	ans = data.to_dict()
-	return ans['value']
+return ans['value']
 
 
 input2 = [
