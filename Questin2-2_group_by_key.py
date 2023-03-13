@@ -1,11 +1,9 @@
 import pandas as pd
 def group_by_key(input2):
-	df = pd.DataFrame(input2)
-
-	data = df.groupby(['key']).sum()
-
-	ans = data.to_dict()
-return ans['value']
+    df = pd.DataFrame(input2)
+    data = df.groupby(['key']).sum()
+    ans = data.to_dict()
+    return ans['value']
 
 
 input2 = [
