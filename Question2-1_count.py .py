@@ -1,9 +1,10 @@
 def count(input1):
-    dic1 = {}
-    for i in range(len(input1)):
-        ddic = {input1[i]:input1.count(input1[i])}
-        dic1.update(ddic)
-    return dic1
-
+    dic ={}
+    for i in input1:
+        if i not in dic:
+            dic[i] = 1
+        else:
+            dic[i] += 1
+    return dic
 
 print(count(['a', 'b', 'c', 'a', 'c', 'a', 'x']))
