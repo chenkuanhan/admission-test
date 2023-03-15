@@ -3,7 +3,7 @@ Answer:
 1.Git is a version control system used for tracking changes of source code  in computer files.
 2. It allows multiple developers to work together.
 
-When multiple people work together on a project, conflicts are inevitable. The engineer puts the project into the git database and adds it to the index list. This is so that all changes to the project can be recorded and selected which changes are submitted as commits. 
+When multiple people work together on a project, conflicts are inevitable. The engineer puts the project into the git database and adds it to the index list.This is so that all changes to the project can be recorded and you can choose which changes as commits.
 
 When projects conflict Engineers can return to the branch where the commit is located for debugging according to the information recorded on the commit
 
