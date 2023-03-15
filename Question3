@@ -1,0 +1,34 @@
+1.What is Git and Why is it used?:
+Answer:
+1.Git is a version control system used for tracking changes of source code  in computer files.
+2. It allows multiple developers to work together.
+
+When multiple people work together on a project, conflicts are inevitable. The engineer puts the project into the git database and adds it to the index list. This is so that all changes to the project can be recorded and selected which changes are submitted as commits. 
+
+When projects conflict Engineers can return to the branch where the commit is located for debugging according to the information recorded on the commit
+
+----------------------------------------
+
+2. What is the difference between List, Dictionary, Tuple and Set in Python?
+
+list:
+1.List is an mutable sequence(Ordered collection) in Python,they are just like dynamic sized arrays(vector in C++ and ArrayList in Java)
+2.it can be converted into another data type and can store any data element in it.
+3.Items in list can be replaced or changed
+
+Tuple:
+1.Tuple is an immutable sequence(Ordered collection) in Python,it can store any data type of element changed in it but can not be changed or replaced  
+2.Items in tuple cannot be changed or replaced
+
+
+set:
+1.Set is an unordered collection of data type in Python
+2.Set has no duplicate elements
+3.Set are mutable, however, only immutable objects can be stored in it.
+4.Items in set cannot be changed or replaced
+
+Dictionary:
+1.Dictionary is a unordered collection of various data types.
+2. Dictionary is a data structure of the non-homogenous type that functions to store key-value pairs
+3.Dictionary is mutable, but the keys are not at all duplicated.
+4.The key in Dictionary must be hashable, The value in Dictionary can store any data type
